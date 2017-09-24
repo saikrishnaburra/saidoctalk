@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		876A45691F76169900D9874A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A45681F76169900D9874A /* AppDelegate.swift */; };
+		876A456B1F76169900D9874A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A456A1F76169900D9874A /* ViewController.swift */; };
+		876A456E1F76169900D9874A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876A456C1F76169900D9874A /* Main.storyboard */; };
+		876A45711F76169900D9874A /* DocTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 876A456F1F76169900D9874A /* DocTalk.xcdatamodeld */; };
+		876A45731F76169900D9874A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876A45721F76169900D9874A /* Assets.xcassets */; };
+		876A45761F76169900D9874A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 876A45741F76169900D9874A /* LaunchScreen.storyboard */; };
+		876A45811F76169900D9874A /* DocTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A45801F76169900D9874A /* DocTalkTests.swift */; };
+		876A458C1F76169900D9874A /* DocTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A458B1F76169900D9874A /* DocTalkUITests.swift */; };
+		876A459C1F76213C00D9874A /* CustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A459B1F76213C00D9874A /* CustCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		876A457D1F76169900D9874A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876A455D1F76169800D9874A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876A45641F76169900D9874A;
+			remoteInfo = DocTalk;
+		};
+		876A45881F76169900D9874A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 876A455D1F76169800D9874A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 876A45641F76169900D9874A;
+			remoteInfo = DocTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		876A45651F76169900D9874A /* DocTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		876A45681F76169900D9874A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		876A456A1F76169900D9874A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		876A456D1F76169900D9874A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		876A45701F76169900D9874A /* DocTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DocTalk.xcdatamodel; sourceTree = "<group>"; };
+		876A45721F76169900D9874A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		876A45751F76169900D9874A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		876A45771F76169900D9874A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876A457C1F76169900D9874A /* DocTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876A45801F76169900D9874A /* DocTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTalkTests.swift; sourceTree = "<group>"; };
+		876A45821F76169900D9874A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876A45871F76169900D9874A /* DocTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		876A458B1F76169900D9874A /* DocTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTalkUITests.swift; sourceTree = "<group>"; };
+		876A458D1F76169900D9874A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		876A459B1F76213C00D9874A /* CustCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876A45621F76169900D9874A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A45791F76169900D9874A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A45841F76169900D9874A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		876A455C1F76169800D9874A = {
+			isa = PBXGroup;
+			children = (
+				876A45671F76169900D9874A /* DocTalk */,
+				876A457F1F76169900D9874A /* DocTalkTests */,
+				876A458A1F76169900D9874A /* DocTalkUITests */,
+				876A45661F76169900D9874A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		876A45661F76169900D9874A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				876A45651F76169900D9874A /* DocTalk.app */,
+				876A457C1F76169900D9874A /* DocTalkTests.xctest */,
+				876A45871F76169900D9874A /* DocTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		876A45671F76169900D9874A /* DocTalk */ = {
+			isa = PBXGroup;
+			children = (
+				876A45681F76169900D9874A /* AppDelegate.swift */,
+				876A456A1F76169900D9874A /* ViewController.swift */,
+				876A456C1F76169900D9874A /* Main.storyboard */,
+				876A45721F76169900D9874A /* Assets.xcassets */,
+				876A45741F76169900D9874A /* LaunchScreen.storyboard */,
+				876A45771F76169900D9874A /* Info.plist */,
+				876A456F1F76169900D9874A /* DocTalk.xcdatamodeld */,
+				876A459B1F76213C00D9874A /* CustCell.swift */,
+			);
+			path = DocTalk;
+			sourceTree = "<group>";
+		};
+		876A457F1F76169900D9874A /* DocTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				876A45801F76169900D9874A /* DocTalkTests.swift */,
+				876A45821F76169900D9874A /* Info.plist */,
+			);
+			path = DocTalkTests;
+			sourceTree = "<group>";
+		};
+		876A458A1F76169900D9874A /* DocTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				876A458B1F76169900D9874A /* DocTalkUITests.swift */,
+				876A458D1F76169900D9874A /* Info.plist */,
+			);
+			path = DocTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		876A45641F76169900D9874A /* DocTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876A45901F76169900D9874A /* Build configuration list for PBXNativeTarget "DocTalk" */;
+			buildPhases = (
+				876A45611F76169900D9874A /* Sources */,
+				876A45621F76169900D9874A /* Frameworks */,
+				876A45631F76169900D9874A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocTalk;
+			productName = DocTalk;
+			productReference = 876A45651F76169900D9874A /* DocTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		876A457B1F76169900D9874A /* DocTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876A45931F76169900D9874A /* Build configuration list for PBXNativeTarget "DocTalkTests" */;
+			buildPhases = (
+				876A45781F76169900D9874A /* Sources */,
+				876A45791F76169900D9874A /* Frameworks */,
+				876A457A1F76169900D9874A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876A457E1F76169900D9874A /* PBXTargetDependency */,
+			);
+			name = DocTalkTests;
+			productName = DocTalkTests;
+			productReference = 876A457C1F76169900D9874A /* DocTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		876A45861F76169900D9874A /* DocTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 876A45961F76169900D9874A /* Build configuration list for PBXNativeTarget "DocTalkUITests" */;
+			buildPhases = (
+				876A45831F76169900D9874A /* Sources */,
+				876A45841F76169900D9874A /* Frameworks */,
+				876A45851F76169900D9874A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				876A45891F76169900D9874A /* PBXTargetDependency */,
+			);
+			name = DocTalkUITests;
+			productName = DocTalkUITests;
+			productReference = 876A45871F76169900D9874A /* DocTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		876A455D1F76169800D9874A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = apnacomplex;
+				TargetAttributes = {
+					876A45641F76169900D9874A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					876A457B1F76169900D9874A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876A45641F76169900D9874A;
+					};
+					876A45861F76169900D9874A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 876A45641F76169900D9874A;
+					};
+				};
+			};
+			buildConfigurationList = 876A45601F76169800D9874A /* Build configuration list for PBXProject "DocTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 876A455C1F76169800D9874A;
+			productRefGroup = 876A45661F76169900D9874A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				876A45641F76169900D9874A /* DocTalk */,
+				876A457B1F76169900D9874A /* DocTalkTests */,
+				876A45861F76169900D9874A /* DocTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		876A45631F76169900D9874A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A45761F76169900D9874A /* LaunchScreen.storyboard in Resources */,
+				876A45731F76169900D9874A /* Assets.xcassets in Resources */,
+				876A456E1F76169900D9874A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A457A1F76169900D9874A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A45851F76169900D9874A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		876A45611F76169900D9874A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A459C1F76213C00D9874A /* CustCell.swift in Sources */,
+				876A456B1F76169900D9874A /* ViewController.swift in Sources */,
+				876A45711F76169900D9874A /* DocTalk.xcdatamodeld in Sources */,
+				876A45691F76169900D9874A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A45781F76169900D9874A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A45811F76169900D9874A /* DocTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876A45831F76169900D9874A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876A458C1F76169900D9874A /* DocTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		876A457E1F76169900D9874A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876A45641F76169900D9874A /* DocTalk */;
+			targetProxy = 876A457D1F76169900D9874A /* PBXContainerItemProxy */;
+		};
+		876A45891F76169900D9874A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 876A45641F76169900D9874A /* DocTalk */;
+			targetProxy = 876A45881F76169900D9874A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		876A456C1F76169900D9874A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876A456D1F76169900D9874A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		876A45741F76169900D9874A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				876A45751F76169900D9874A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		876A458E1F76169900D9874A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		876A458F1F76169900D9874A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		876A45911F76169900D9874A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DocTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		876A45921F76169900D9874A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DocTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		876A45941F76169900D9874A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WDJ7KT88S;
+				INFOPLIST_FILE = DocTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocTalk.app/DocTalk";
+			};
+			name = Debug;
+		};
+		876A45951F76169900D9874A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WDJ7KT88S;
+				INFOPLIST_FILE = DocTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocTalk.app/DocTalk";
+			};
+			name = Release;
+		};
+		876A45971F76169900D9874A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WDJ7KT88S;
+				INFOPLIST_FILE = DocTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocTalk;
+			};
+			name = Debug;
+		};
+		876A45981F76169900D9874A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7WDJ7KT88S;
+				INFOPLIST_FILE = DocTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apnacomplex.DocTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		876A45601F76169800D9874A /* Build configuration list for PBXProject "DocTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A458E1F76169900D9874A /* Debug */,
+				876A458F1F76169900D9874A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876A45901F76169900D9874A /* Build configuration list for PBXNativeTarget "DocTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A45911F76169900D9874A /* Debug */,
+				876A45921F76169900D9874A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876A45931F76169900D9874A /* Build configuration list for PBXNativeTarget "DocTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A45941F76169900D9874A /* Debug */,
+				876A45951F76169900D9874A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		876A45961F76169900D9874A /* Build configuration list for PBXNativeTarget "DocTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876A45971F76169900D9874A /* Debug */,
+				876A45981F76169900D9874A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		876A456F1F76169900D9874A /* DocTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				876A45701F76169900D9874A /* DocTalk.xcdatamodel */,
+			);
+			currentVersion = 876A45701F76169900D9874A /* DocTalk.xcdatamodel */;
+			path = DocTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 876A455D1F76169800D9874A /* Project object */;
+}
